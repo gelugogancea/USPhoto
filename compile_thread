@@ -1,0 +1,1 @@
+gcc -Wall -ggdb -O3 -lpthread -I/Coco/include/mysql -L/Coco/lib/mysql -lmysqlclient usphotod.c strhnd.c myerror.c usmysql.c uniqid.c myexif.c -o usphotod 
